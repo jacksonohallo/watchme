@@ -22,7 +22,12 @@ const movie = movies[Math.floor(Math.random() * movies.length)]
     
 
   return (
-    <div>Main</div>
+      <div className='w-full h-[550px] text-white'>
+          <div className='w-full h-full'>
+          <img src={`https://image.tmdb.org/t/p/original/${movie?.backdrop_path}`} alt={movies?.title}          />    
+    </div>
+
+    </div>
   )
 }
 
