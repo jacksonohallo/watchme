@@ -1,12 +1,11 @@
 import React from 'react';
-
-
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       
-      <h1>Netflix clone</h1>
+      <Navbar/>
 
     </div>
   );
